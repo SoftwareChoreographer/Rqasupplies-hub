@@ -17,7 +17,7 @@ const Footer = () => {
 
           <div className="text-center md:text-right">
             <p className="text-sm text-secondary-foreground/70">
-              South Africa
+              Delmas, South Africa
             </p>
             <p className="text-sm text-secondary-foreground/50 mt-1">
               © {currentYear} RQA Supplies. All rights reserved.
