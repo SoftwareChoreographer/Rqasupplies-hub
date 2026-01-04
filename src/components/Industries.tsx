@@ -9,12 +9,12 @@ const Industries = () => {
     },
     {
       icon: Mountain,
-      name: "Motor Graders",
+      name: "Graders",
       description: "Grader blades and components for road graders used in mine site maintenance and construction.",
     },
     {
       icon: Truck,
-      name: "Front-End Loaders",
+      name: "Loaders",
       description: "Hydraulic components and safety equipment for wheel loaders operating in mining environments.",
     },
   ];

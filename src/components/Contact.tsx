@@ -25,7 +25,7 @@ const Contact = () => {
               </div>
               <div>
                 <p className="font-medium text-foreground">Location</p>
-                <p className="text-muted-foreground">Delmas, South Africa</p>
+                <p className="text-muted-foreground">3 Diamant Street, Delmas — South Africa 2210</p>
               </div>
             </div>
             <div className="flex items-start gap-4">
