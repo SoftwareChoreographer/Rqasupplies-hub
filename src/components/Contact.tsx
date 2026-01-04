@@ -34,7 +34,7 @@ const Contact = () => {
               </div>
               <div>
                 <p className="font-medium text-foreground">Email</p>
-                <p className="text-muted-foreground">info@rqasupplies.co.za</p>
+                <p className="text-muted-foreground">sales@rqasupplies.co.za</p>
               </div>
             </div>
           </div>
