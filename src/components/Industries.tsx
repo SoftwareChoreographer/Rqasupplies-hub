@@ -1,4 +1,4 @@
-import { Pickaxe, Truck, Mountain } from "lucide-react";
+import { Pickaxe, Truck, Mountain, Cog } from "lucide-react";
 
 const Industries = () => {
   const machinery = [
@@ -17,6 +17,11 @@ const Industries = () => {
       name: "Loaders",
       description: "Hydraulic components and safety equipment for wheel loaders operating in mining environments.",
     },
+    {
+      icon: Cog,
+      name: "Bobcat",
+      description: "Parts and components for Bobcat skid steer loaders and compact equipment used on mining sites.",
+    },
   ];
 
   return (
@@ -33,7 +38,7 @@ const Industries = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {machinery.map((machine, index) => (
             <div
               key={index}

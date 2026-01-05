@@ -3,6 +3,7 @@ import trackAdjusterImage from "@/assets/track-adjuster.jpg";
 import graderBladeImage from "@/assets/grader-blade.jpg";
 import safetyBeltImage from "@/assets/safety-belt.jpg";
 import machineryCameraImage from "@/assets/machinery-camera.jpg";
+import gasSpringImage from "@/assets/gas-spring.jpg";
 
 const Products = () => {
   const products = [
@@ -30,6 +31,11 @@ const Products = () => {
       image: machineryCameraImage,
       title: "Machinery Cameras",
       description: "Rugged camera systems for excavators and loaders, improving operator visibility and site safety.",
+    },
+    {
+      image: gasSpringImage,
+      title: "Gas Springs",
+      description: "Industrial gas struts and springs for machinery hoods, doors, and access panels on heavy equipment.",
     },
   ];
 
@@ -71,6 +77,10 @@ const Products = () => {
             </div>
           ))}
         </div>
+
+        <p className="text-center text-muted-foreground mt-10 text-lg">
+          ...and many more parts and components for heavy machinery.
+        </p>
       </div>
     </section>
   );
